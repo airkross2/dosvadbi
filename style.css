@@ -1,0 +1,28 @@
+.s {
+    letter-spacing: 1px;
+}
+
+.wrap-all {
+    justify-content: center;
+    height: 100vh;
+    background: rgba(255, 255, 255,.3);
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: url(1.jpg) center center;
+    background-size: cover;
+    color: rgb(156, 0, 0);
+    font-size: 18px;
+    font-weight: 700
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700
+}
