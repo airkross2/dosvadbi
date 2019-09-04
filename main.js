@@ -1,11 +1,12 @@
 
 window.onload = function () {
     let ostD, ostCh, ostMin, ostSec;
-    var d, h, m, s;
+    var d, h, m, s, newStart;
     d = document.getElementById('d');
     h = document.getElementById('h');
     m = document.getElementById('m');
     s = document.getElementById('s');
+    newStart = document.getElementById('newStart');
     let interval = setInterval(function () {
         let dateNow = new Date();
         let dateFuture = new Date(2021, 06, 1);
@@ -21,6 +22,7 @@ window.onload = function () {
         s.textContent = ostSec;
         if(ostSec == 0){
             clearInterval(interval);
+            newStart.textContent = 'Теперь ты моя навечно ❤ И в горе и в радости ❤ И пока смерть не разлучит нас ❤ Ты мой маленький ангелочек и жизни моей нет без тебя ❤ Эльмира, я люблю тебя и спасибо что ты есть у меня ❤';
         }
     }, 1000)
 

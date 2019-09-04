@@ -5,7 +5,7 @@
 .wrap-all {
     justify-content: center;
     height: 100vh;
-    background: rgba(255, 255, 255,.3);
+    background: rgba(255, 255, 255, .3);
     padding: 0;
     margin: 0;
 }
@@ -19,6 +19,13 @@
     color: rgb(156, 0, 0);
     font-size: 18px;
     font-weight: 700
+}
+
+#newStart {
+    padding: 15px 25px;
+    text-align: justify;
+    max-width: 650px;
+    width: 100%;
 }
 
 h1 {
