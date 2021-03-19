@@ -9,7 +9,7 @@ window.onload = function () {
     newStart = document.getElementById('newStart');
     let interval = setInterval(function () {
         let dateNow = new Date();
-        let dateFuture = new Date(2021, 06, 1);
+        let dateFuture = new Date(2021, 03, 8);
 
         ostD = Math.trunc((dateFuture - dateNow) / (1000 * 60 * 60 * 24));
         ostCh = Math.trunc((dateFuture - dateNow) / (1000 * 60 * 60));
